@@ -12,11 +12,12 @@ const client = new Client({
         GatewayIntentBits.GuildMembers
     ],
     presence: {
-        status: 'online',
+        status: 'idle',
         afk: false,
         activities: [{
-            name: "Beautiful People 👀",
-            type: ActivityType.Watching,
+            name: "Ta Yarr",
+            type: ActivityType.Streaming,
+            url : "https://twitch.tv/twitch"
         }],
     },
 })
