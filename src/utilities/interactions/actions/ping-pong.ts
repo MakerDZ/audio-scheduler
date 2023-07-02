@@ -6,6 +6,6 @@ export default async function is_ping_pong(Client : Client,Interaction : Interac
     const interaction = Interaction as CommandInteraction;
     if(interaction.commandName === 'ping'){
         //await interaction.reply(reply_with_pong());
-        streamAudio(Client, ['https://www.youtube.com/watch?v=jNQXAC9IVRw'], '1125077044661866649');
+        streamAudio(Client, ['https://www.youtube.com/watch?v=jNQXAC9IVRw','https://www.youtube.com/watch?v=IpzKmBCBIQE', 'https://www.youtube.com/watch?v=poYdpHX5nUw'], '1125077044661866649');
     }
 }
