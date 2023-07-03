@@ -19,10 +19,6 @@
 <br/>
 <br/>
 
-<p align="center">
-  <img width="auto" height="350" src="https://us-east-1.tixte.net/uploads/ajax.tixte.co/discord-gif-emoji-3.gif" alt="Discord_Bot">
-</p>
 
-# ⚡ Installation
 
 
