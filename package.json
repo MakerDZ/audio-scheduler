@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot-starter",
+  "name": "audio-scheduler-bot",
   "version": "1.0.0",
   "description": "🌿 A simple, beginner-friendly TypeScript Discord bot starter template.",
   "main": "src/index.ts",

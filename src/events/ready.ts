@@ -2,6 +2,7 @@ import { Client } from "discord.js"
 import loadCommands from "../libraries/commandHandling";
 import connectDB from "../utilities/database/dbConnection";
 import { PlayListModel } from "../models/playList";
+import { getTitle } from "../libraries/yt/getTitle";
 
 export default {
     name : 'ready',

@@ -11,5 +11,5 @@ export interface Job extends Document {
 
 export interface Playlist extends Document {
     name : string;
-    queue : Array<string>;
+    queue : Array<{name : string , url : string}>;
 }
