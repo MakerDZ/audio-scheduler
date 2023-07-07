@@ -59,7 +59,7 @@ async function selectPlaylist(interaction : ChatInputCommandInteraction){
     const playLists = rawPlaylists.map(playlist => {
         return {
             label : playlist.name,
-            value : playlist.name 
+            value : playlist._id.toString()
         }
     })
     await interaction.reply(selectPlaylistInterface(playLists));
